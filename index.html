@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portifólio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+    <!-- Design header  -->
+    <header class="container mt-3">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand logo-text" href="#header">
+                    <h1 class="first-letter">Portifolio Dantas</h1>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-togggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-label="Toggle navigation">
+                    <i class="fa-solid fa-align-right"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item px-5"><a class="nav-link" href="#home">Home</a></li>
+                        <li class="nav-item px-5"><a class="nav-link" href="#aboutme">AboutMe</a></li>
+                        <li class="nav-item px-5"><a class="nav-link" href="#portifólio">Projects</a></li>
+                        <li class="nav-item px-5"><a class="nav-link" href="#skills">Skills</a></li>
+                        <li class="nav-item px-5"><a class="nav-link" href="#contatos">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- design section Home -->
+        <section class="container mt-5" id="home">
+            <div class="row d-flex justify-content-center align-items-center">
+                <div class="col-lg-6">
+                    <h3 class="mb-4">Hello I’m</h3>
+                    <h2 class="display-5 my-4">Iago Dantas</h2>
+                    <h4 class="mb-4">Back-End Developer</h4>
+                    <button class="btn btn-lg"><a href="https://wa.me/5511976607010" target="_blank">Let'stalk <i
+                                class="fa-solid fa-arrow-right-long ms-1"></i></a></button>
+                </div>
+            </div>
+            </div>
+
+            <!-- carrosel -->
+            <!-- Design Aboout me -->
+            <div class="text-about carousel slide" data-bs-ride="carousel" id="aboutme">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="p-4 text-center">
+                            <h2>Sobre mim</h2>
+                            <p>• Sou Iago Dantas, formado em Direito e em transição de carreira para a área de
+                                tecnologia.
+                                Atualmente
+                                curso Análise e Desenvolvimento de Sistemas pela FIAP e sou apaixonado por criar
+                                soluções
+                                tecnológicas
+                                que gerem impacto.Tenho experiência em Java e Spring Boot para construção de APIs REST,
+                                além
+                                de
+                                PostgreSQL para bancos de dados relacionais. Também domino HTML, CSS e JavaScript,
+                                integrando
+                                front
+                                e
+                                back-end em projetos web.Desenvolvo projetos pessoais em Java e participo de um projeto
+                                acadêmico
+                                voltado à criação de uma solução global para situações de catástrofes.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="p-4 text-center">
+                            <h2>About me</h2>
+                            <p>My name is Iago Dantas. I hold a degree in Law and am currently transitioning into the
+                                tech field. I’m studying Systems Analysis and Development at FIAP and I’m passionate
+                                about creating impactful technological solutions. I have experience with Java and Spring
+                                Boot for building RESTful APIs, as well as PostgreSQL for relational databases. I’m also
+                                proficient in HTML, CSS, and JavaScript, integrating both front-end and back-end in web
+                                projects. I develop personal projects using Java and actively contribute to an academic
+                                initiative focused on creating a global solution for disaster situations.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#textCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#textCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+
+                <!-- Indicadores -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#textCarousel" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#textCarousel" data-bs-slide-to="1"></button>
+                </div>
+            </div>
+            <!-- carrosel -->
+        </section>
+
+        <!-- Create Projects -->
+        <section class="" id="portifólio">
+            <h3>Ultimos projetos</h3>
+            <div class="java">Projeto</div>
+            <div class="python">Projeto</div>
+            <div class="JS">Projeto</div>
+            <div class="global-solution">Projeto</div>
+        </section>
+        <!-- Create skills -->
+        <section class="" id="skills">
+            <div>""Inserir Hard/softSkills</div>
+        </section>
+
+        <section class="social" id="contatos">
+            <div class="rede-social">Minhas redes</div>
+            <a href="https://github.com/IDantas7" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/iago-dantas/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="mailto:iagodantas_p@outlook.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+            <a href="https://www.instagram.com/iaagodantas/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        </section>
+
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/script.js"></script>
+</body>
+
+</html>
