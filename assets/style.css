@@ -1,8 +1,9 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: "JetBrains Mono", monospace;
-    
+    scroll-behavior: smooth;
 }
 
 :root{
@@ -19,10 +20,6 @@ body{
     height: 100%;
     font-size: 1.6rem;
     background-color: #d7d7d7;
-    background-image: url(/assets/images/imagemFundo.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 a{
