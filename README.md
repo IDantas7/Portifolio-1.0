@@ -46,7 +46,7 @@ O portfólio tem como principal função destacar:
 - [x] Estrutura inicial em HTML e CSS
 - [x] Navegação com âncoras
 - [x] Seção "Sobre mim"
-- [ ] Finalização da seção de projetos
+- [x] Finalização da seção de projetos
 - [ ] Inserção de animações leves e melhorias de acessibilidade
 - [ ] Hospedagem com GitHub Pages ou Vercel
 
